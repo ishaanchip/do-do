@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO-DO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="index.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Afacad&family=Exo+2&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  
+  <header>
+    <div class="top-bar">
+      <h1>DO - DO</h1>
+      
+    <img src="https://i.ibb.co/ncRG2Fx/rawr-mom.png" alt="rawr-mom" border="0"/>
+      <span>
+       <h3>Archived List</h3>
+      <h3>Guide</h3>
+        <h3>KEY</h3>
+      </span>
+    </div> 
+  </header>
+
+  <main>
+   <div class="boxes">
+
+     <div class="archive-box hide" id="archive">
+       <span> <i class="fa-solid fa-circle-xmark" id="archive-box-x"></i></span>
+       <h1>The Archived</h1>
+        <div class="archived-lists" id="archived-lists">
+     
+        </div>
+     </div>
+    
+    <div class="full-tasks" id="full-tasks" style="height:20rem">
+      
+      <h1 id="date">Objectives</h1>
+      
+      <div class="pure-tasks" id="pure-tasks">
+        
+    </div>
+      
+      <div class="addObj" id="obj-list-add">
+      <i class="fa-solid fa-circle-plus"></i>
+      </div>
+    
+    </div>
+    
+    <div class="edit-box hide" id="edit-box">
+      <span> <i class="fa-solid fa-circle-xmark" id="edit-box-x"></i></span>
+      <h1>Add Items</h1>
+      <div class="search-bar">
+      <input required type="text" autocomplete="off" id="new-obj"/>
+        <i id="search-btn" class="fa-brands fa-searchengin search-btn"></i>
+      </div>
+      <h1 class="date-title" id="date-title">Add Date</h1>
+      <input type="date" class="date" id="date-input" value="" />
+      <i class="fa-solid fa-check confirm-date" id="confirm-date"></i>
+       
+    </div>
+      
+    </div>
+  </main>
+          <div class="confirm">
+            
+            <button id="archiveBtn">ARCHIVED LIST</button>    
+        <button id="completeBtn">SAVE & COMPLETE LIST</button>
+         <button id="addBtn">ADD ITEMS</button>
+      </div>
+  
+</body>
+
+<script src="index.js"></script>
+</html>
